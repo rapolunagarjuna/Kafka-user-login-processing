@@ -50,6 +50,7 @@ services:
     environment:
       BOOTSTRAP_SERVERS: kafka:9092
       KAFKA_TOPIC: user-login
+      STATS_TOPIC: user-login-stats
     networks:
       - kafka-network
 networks:

@@ -39,7 +39,7 @@ If the message has all the required fields, we return True, else we return False
 def is_valid_message(message):
     required_fields = ["user_id", "device_type", "device_id", "locale", "timestamp"]
     return all(field in message for field in required_fields)
-
+ 
 """
 We are processing the message to calculate the statistics.
 We are updating the following statistics:
