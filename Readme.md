@@ -3,8 +3,11 @@
 ### Running the System
 Start the Services:
 
--Use Docker Compose to start all services:
--docker-compose up
+Use Docker Compose to start all services:
+
+    ```
+    docker-compose up
+    ```
 
 ## Overview
 
