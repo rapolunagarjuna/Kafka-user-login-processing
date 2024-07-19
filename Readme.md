@@ -5,9 +5,9 @@ Start the Services:
 
 Use Docker Compose to start all services:
 
-    ```
+    
     docker-compose up
-    ```
+    
 
 ## Overview
 
